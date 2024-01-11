@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+.section-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+    touch-action: none;
+}
+
+.take-element {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid black;
+}
+
+.elements-containers-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.grid-container {
+    width: 484px;
+    height: 450px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(auto-fill, 100px);
+    gap: 20px;
+    overflow-y: scroll;
+    border: 1px solid black;
+}
+
+.save-position-container {
+    position: relative;
+    width: 484px;
+    height: 450px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.on-drag {
+    border: 2px dashed #0da6ff;
+}

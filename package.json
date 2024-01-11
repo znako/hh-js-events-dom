@@ -1,0 +1,23 @@
+{
+  "name": "hh-js-events-dom",
+  "version": "1.0.0",
+  "description": "HH: homework events and dom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/znako/hh-js-events-dom.git"
+  },
+  "author": "znako",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/znako/hh-js-events-dom/issues"
+  },
+  "homepage": "https://github.com/znako/hh-js-events-dom#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.8",
+    "typescript": "^4.9.5"
+  }
+}
